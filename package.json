@@ -1,0 +1,36 @@
+{
+  "name": "react-init",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "webpack ./src/redux/testRedux.js build.js",
+    "start": "webpack-dev-server --config webpack.dev.config.js --color --progress"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "bundle-loader": "^0.5.6",
+    "css-loader": "^3.4.2",
+    "file-loader": "^5.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "react-hot-loader": "^4.5.3",
+    "style-loader": "^1.1.3",
+    "url-loader": "^3.0.0",
+    "webpack": "^3.12.0",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^2.11.5"
+  },
+  "dependencies": {
+    "react": "16.8.0",
+    "react-dom": "^16.12.0",
+    "react-redux": "^7.1.3",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.5"
+  }
+}
